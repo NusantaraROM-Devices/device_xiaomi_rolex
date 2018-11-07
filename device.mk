@@ -25,6 +25,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
 # Properties
 -include $(DEVICE_PATH)/vendor_prop.mk
 
