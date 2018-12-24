@@ -69,6 +69,7 @@ PRODUCT_PACKAGES += \
     audio.primary.msm8937 \
     audio.r_submix.default \
     audio.usb.default \
+    libaacwrapper \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing
@@ -471,6 +472,10 @@ PRODUCT_COPY_FILES += \
 # zRam
 PRODUCT_PACKAGES += \
     set_zram.sh
+
+# Wi-Fi Display
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
