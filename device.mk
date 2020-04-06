@@ -474,6 +474,9 @@ PRODUCT_PACKAGES += \
     set_zram.sh
 
 # Wi-Fi Display
+PRODUCT_PACKAGES += \
+    libnl
+
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
