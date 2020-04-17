@@ -452,5 +452,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/wifi/firmware/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(DEVICE_PATH)/wifi/firmware/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_cfg.ini
 
+# zRam
+PRODUCT_PACKAGES += \
+    set_zram.sh
+
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)

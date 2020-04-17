@@ -158,6 +158,13 @@ service vendor.per_proxy /vendor/bin/pm-proxy
     disabled
     writepid /dev/cpuset/system-background/tasks
 
+service set_zram /vendor/bin/sh /vendor/bin/set_zram.sh
+    class late_start
+    disabled
+    user root
+    group system
+    oneshot
+
 on property:init.svc.vendor.per_mgr=running
     start vendor.per_proxy
 
@@ -168,3 +175,4 @@ on property:sys.powerctl=*
 on property:sys.boot_completed=1
    # Enable ZRAM on boot_complete
    swapon_all /vendor/etc/fstab.qcom
+   start set_zram
