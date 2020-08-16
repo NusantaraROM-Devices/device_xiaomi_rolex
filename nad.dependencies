@@ -7,8 +7,20 @@
   },
   {
     "remote": "github",
-    "repository": "Nick89786/android_vendor_xiaomi",
+    "repository": "NusantaraROM-Devices/vendor_xiaomi_rolex",
     "target_path": "vendor/xiaomi",
     "branch": "lineage-17.1"
+  },
+  {
+    "remote": "priv",
+    "repository": "android_packages_apps_NusantaraParts",
+    "target_path": "packages/apps/NusantaraParts",
+    "branch": "3.18"
+  },
+    {
+    "remote": "priv",
+    "repository": "android_packages_apps_NusantaraPapers",
+    "target_path": "packages/apps/NusantaraPapers",
+    "branch": "10"
   }
 ]
