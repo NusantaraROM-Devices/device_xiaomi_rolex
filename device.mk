@@ -254,6 +254,10 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     netutils-wrapper-1.0
 
+# NusantaraPapers
+PRODUCT_PACKAGES += \
+    NusantaraPapers
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
