@@ -3,24 +3,28 @@
     "remote": "github",
     "repository": "NusantaraROM-Devices/kernel_xiaomi_rolex",
     "target_path": "kernel/xiaomi/msm8917",
-    "branch": "10"
+    "branch": "10",
+    "clone-depth": "1"
   },
   {
     "remote": "github",
     "repository": "NusantaraROM-Devices/vendor_xiaomi_rolex",
     "target_path": "vendor/xiaomi",
-    "branch": "lineage-17.1"
+    "branch": "lineage-17.1",
+    "clone-depth": "1"
   },
   {
     "remote": "priv",
     "repository": "android_packages_apps_NusantaraParts",
     "target_path": "packages/apps/NusantaraParts",
-    "branch": "3.18"
+    "branch": "3.18",
+    "clone-depth": "1"
   },
     {
     "remote": "priv",
     "repository": "android_packages_apps_NusantaraPapers",
     "target_path": "packages/apps/NusantaraPapers",
-    "branch": "10"
+    "branch": "10",
+    "clone-depth": "1"
   }
 ]
