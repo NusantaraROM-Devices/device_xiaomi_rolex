@@ -60,6 +60,16 @@ on boot
     setprop vendor.usb.rmnet.inst.name "rmnet_bam_dmux"
     setprop vendor.usb.dpl.inst.name "dpl_bam_dmux"
 
+    # Vibrator
+    chown system system /sys/class/leds/vibrator/vmax_mv_user
+    chown system system /sys/class/leds/vibrator/vmax_mv_call
+    chown system system /sys/class/leds/vibrator/vmax_mv_strong
+    chown system system sys/class/leds/vibrator/vmax_override
+    chmod 0660 /sys/class/leds/vibrator/vmax_override
+    write /sys/class/leds/vibrator/vmax_override 1
+    chown root system /sys/class/timed_output/vibrator/vtg_level
+    chmod 0660 /sys/class/timed_output/vibrator/vtg_level
+
 # Start camera server as daemon
 service qcamerasvr /vendor/bin/mm-qcamera-daemon
     class main
