@@ -26,6 +26,8 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Nusantara Properties
 NAD_BUILD_TYPE := OFFICIAL
 
