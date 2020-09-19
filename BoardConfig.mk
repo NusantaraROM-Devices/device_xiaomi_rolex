@@ -175,11 +175,6 @@ TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-03-05
 
-# Shims
-TARGET_LD_SHIM_LIBS := \
-    /vendor/lib64/liblbs_core.so|libloc_shim.so \
-    /vendor/lib64/libloc_api_v02.so|libloc_shim.so
-
 # SELinux
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
