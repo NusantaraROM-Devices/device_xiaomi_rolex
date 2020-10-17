@@ -324,7 +324,11 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt App
 PRODUCT_PACKAGES += \
-    GCam
+    Calculator \
+    Clock \
+    GCam \
+    RetroMusic \
+    ViaBrowser
 
 # Power
 PRODUCT_PACKAGES += \
