@@ -520,6 +520,7 @@ lib/libwfduibcsinkinterface.so|d3a309b7e5ad9ab4dc3179bcf5c46a7058f3d288
 lib/libwfduibcsink.so|e8157e35751ce8c4d882bf5f003ef1e7edbc1719
 lib/libwfduibcsrcinterface.so|fe8a2158155db35651f0e1ad834e000ca3e27247
 lib/libwfduibcsrc.so|a46688eba016d20c0315e0ebcb57f1d7a3476d21
+lib/com.qualcomm.qti.wifidisplayhal@1.0.so:vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib64/libwfdclient.so|089cca2d14ec6df309934626bd822722a3232dc8
 lib64/libwfdnative.so|b33cc22b66fc96479ba5119d50e984438d521d8e
 -priv-app/WfdService/WfdService.apk|b99c24571581465e637c7f6a6efc7c36042e56ea
