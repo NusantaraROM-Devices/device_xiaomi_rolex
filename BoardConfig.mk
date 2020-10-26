@@ -178,6 +178,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 # RIL
 TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-06-05
 
