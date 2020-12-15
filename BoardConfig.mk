@@ -185,7 +185,7 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
 VENDOR_SECURITY_PATCH := 2020-06-05
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+include device/qcom/sepolicy-legacy-um-new/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Treble
