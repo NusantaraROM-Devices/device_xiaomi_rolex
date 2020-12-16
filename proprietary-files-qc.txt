@@ -120,7 +120,7 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|a7d6305b0b9a3b80e8006b90990cd911209
 vendor/lib64/libdpmqmihal.so|903e732361dddd2dffdd3e9facf76180096710c8
 
 # DPM - from oneplus8 - qssi-user-11-RP1A.201005.001-2009051300-release-keys
-system_ext/lib64/libdpmframework.so
+system_ext/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
 
 # DRM and SEE - from olive - QKQ1.191014.001 V11.0.1.0.QCNCNXM
 vendor/bin/qseecomd|4ca1081d507622dbda844d572e45d8e863e13e9d
@@ -243,16 +243,16 @@ vendor/lib64/libhdr_tm.so|208637299f17b43013b88f5e5538c562b54ad644
 
 # Graphics (SDM) - from olive - QKQ1.191014.001 V11.0.1.0.QCNCNXM
 vendor/lib/libscalar.so|5793dfa5d29a20e123de2afb2691713f5cb75c74
-vendor/lib/libsdm-color.so|4dc7a8c90521c45b3e25623985cf4486e6fb7b57
+vendor/lib/libsdm-color.so|6dc7253b7c3b950777d0d4ece05db7b45a2d294f
 vendor/lib/libsdm-diag.so|6b8ddfbf870f329ca9e9fb50c3e9cb1a54bbb6ab
 -vendor/lib/libsdm-disp-vndapis.so|5b5ab2404541a8e3fd97a4e600bc34e7f3e2e56c
-vendor/lib/libsdmextension.so|a6d8b00d514f434f0f973dacf406956bfea681ef
+vendor/lib/libsdmextension.so|dd1b0812e134ff75994812732954fa03d7eb4414
 vendor/lib/libtinyxml2_1.so|58932a10e8e410dc7b263bc36b5c89e37623059a
 vendor/lib64/libscalar.so|43cb8279a855796d26dedb41efcb0f16b6ad7394
-vendor/lib64/libsdm-color.so|f465d382260baed2d2f326ca663e03cccd73a0b7
+vendor/lib64/libsdm-color.so|dc3e17f9858e4578c69fd597b21f0dd4f6f52794
 vendor/lib64/libsdm-diag.so|4ec7f55fd8a4a1a316282be57e1d5c1a3a20660d
 -vendor/lib64/libsdm-disp-vndapis.so|b04cd604137e52f4f9bb372db01884106da9834a
-vendor/lib64/libsdmextension.so|3d0727b1a95e5691033c151d888b719a687fdba7
+vendor/lib64/libsdmextension.so|133db0462e62fa331eb622b02528b5cdcc08a446
 vendor/lib64/libtinyxml2_1.so|5eaa71107c3ac981774b523a761246aa18a6a5cf
 
 # IMS - from tissot - PKQ1.180917.001.V10.0.4.0.PDHMIXM
