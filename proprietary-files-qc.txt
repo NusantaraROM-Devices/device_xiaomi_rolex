@@ -130,16 +130,6 @@ vendor/lib64/libdrmtime.so|0bf050eb0dd75e863fd81f9518a1e153782d0fb5
 vendor/lib64/librpmb.so|8eaa973512eec245291530817bfc910fbc471435
 vendor/lib64/libssd.so|9c4d94f6bbdc842191248875c7e5aec86b5118e8
 
-# ESE-Powermanager - from LA.UM.8.6.r1-04400-89xx.0
-product/lib/vendor.qti.esepowermanager@1.0.so|bff5c9cd9e6c0984bf65b7437ab70c4d095d87a5
-product/lib64/vendor.qti.esepowermanager@1.0.so|08914f5a066d117c50adaef03c62c7382b4aeaaf
-vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|1dc4d45b23a15177a90105b74c46a7540fcc14c9
-vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
-vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|dcc6a11f408ba83994af21e44d2c8b0b8d83d929
-vendor/lib/vendor.qti.esepowermanager@1.0.so|bff5c9cd9e6c0984bf65b7437ab70c4d095d87a5
-vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|acd480d79a6c7725e6e95455b64894023cfc404d
-vendor/lib64/vendor.qti.esepowermanager@1.0.so|08914f5a066d117c50adaef03c62c7382b4aeaaf
-
 # Gatekeeper - from olive - QKQ1.191014.001 V11.0.1.0.QCNCNXM
 vendor/lib64/hw/gatekeeper.msm8937.so|500e503239be65dfdd6c8c201d7e0679b7a27fa8
 
