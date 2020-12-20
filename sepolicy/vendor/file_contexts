@@ -41,3 +41,5 @@
 
 # Light
 /sys/devices/platform/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?                    u:object_r:sysfs_leds:s0
+
+/(vendor|system/vendor)/bin/set_zram.sh                                                u:object_r:zram_exec:s0
