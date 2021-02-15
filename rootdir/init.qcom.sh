@@ -27,15 +27,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-# Set shared touchpanel nodes ownership (these are proc_symlinks to the real sysfs nodes)
-chown -LR system.system /proc/touchpanel
-
-#
-# Copy qcril.db if needed for RIL
-#
-start_copying_prebuilt_qcril_db
-echo 1 > /data/vendor/radio/db_check_done
-
 target=`getprop ro.board.platform`
 low_ram=`getprop ro.config.low_ram`
 if [ -f /sys/devices/soc0/soc_id ]; then
@@ -297,7 +288,7 @@ case "$target" in
                   ;;
         esac
         ;;
-    "msm8994" | "msm8992" | "msm8998" | "apq8098_latv" | "sdm845" | "sdm710" | "qcs605" | "sm6150")
+    "msm8994" | "msm8992" | "msm8998" | "apq8098_latv" | "sdm845" | "sdm710" | "qcs605" | "sm6150" | "trinket" | "bengal")
         start_msm_irqbalance
         ;;
     "msm8996")
@@ -354,16 +345,16 @@ case "$target" in
                   "294" | "295" | "303" | "307" | "308" | "309" | "313" | "320" | "353" | "354" | "363" | "364")
                        case "$hw_platform" in
                             "Surf")
-                                    #setprop qemu.hw.mainkeys 0
+                                    setprop qemu.hw.mainkeys 0
                                     ;;
                             "MTP")
-                                    #setprop qemu.hw.mainkeys 0
+                                    setprop qemu.hw.mainkeys 0
                                     ;;
                             "RCM")
-                                    #setprop qemu.hw.mainkeys 0
+                                    setprop qemu.hw.mainkeys 0
                                     ;;
                             "QRD")
-                                    #setprop qemu.hw.mainkeys 0
+                                    setprop qemu.hw.mainkeys 0
                                     ;;
                        esac
                        ;;
@@ -467,7 +458,7 @@ buildvariant=`getprop ro.build.type`
 case "$buildvariant" in
     "userdebug" | "eng")
         #set default loglevel to KERN_INFO
-        echo "6 6 1 7" > /proc/sys/kernel/printk
+        echo "4 6 1 7" > /proc/sys/kernel/printk
         ;;
     *)
         #set default loglevel to KERN_WARNING
