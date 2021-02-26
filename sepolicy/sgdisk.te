@@ -1,0 +1,1 @@
+dontaudit sgdisk vendor_file:file read;
