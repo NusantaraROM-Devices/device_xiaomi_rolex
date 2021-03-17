@@ -1,17 +1,15 @@
 [
    {
-      "repository":"vendor_xiaomi_rolex",
-      "target_path":"vendor/xiaomi/rolex"
+      "remote": "github",
+      "repository": "NusantaraROM-Devices/vendor_xiaomi_rolex",
+      "target_path": "vendor/xiaomi/rolex",
+      "branch": "11"
    },
    {
-      "repository":"Thagoo/platform_kernel_xiaomi_msm8917",
-      "target_path":"kernel/xiaomi/msm8917",
-      "remote":"github",
-      "branch":"lineage-18.1",
-      "clone-depth":"1"
-   },
-   {
-      "repository":"packages_apps_Snap",
-      "target_path":"packages/apps/Snap"
+      "remote": "github",
+      "repository": "NusantaraROM-Devices/kernel_xiaomi_rolex",
+      "target_path": "kernel/xiaomi/msm8917",
+      "branch": "rova",
+      "clone-depth": "1"
    }
 ]
